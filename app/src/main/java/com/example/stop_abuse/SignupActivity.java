@@ -56,23 +56,6 @@ public class SignupActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-         // Change code from here START
-//        signupDataToMain.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                String name = signupName.getText().toString();
-//                String email = signupEmail.getText().toString();
-//                String address = signupAddress.getText().toString();
-//                String username = signupUsername.getText().toString();
-//                Intent intent = new Intent(SignupActivity.this,MainActivity.class);
-//                 intent.putExtra("name",name);
-//                 intent.putExtra("email",email);
-//                 intent.putExtra("address",address);
-//                 intent.putExtra("username",username);
-//                 startActivity(intent);
-//            }
-//        });
-           //to here only END
 
 
          loginRedirectText.setOnClickListener(new View.OnClickListener() {

@@ -93,8 +93,7 @@ public class LoginActivity extends AppCompatActivity {
                         loginUsername.setError(null);
                         Intent intent = new Intent(LoginActivity.this,MainActivity.class);    // After Login it render into main activity. If you want to change you have to do just put other...Activity.class
                         startActivity(intent);
-                    }
-                    else {
+                    } else {
                         loginPassword.setError("Invalid Credentials");
                         loginPassword.requestFocus();
 
