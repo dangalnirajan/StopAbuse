@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/feed"
+        android:title="News Feed"
+        android:icon="@drawable/ic_baseline_feed_24" />
+    <item
+        android:id="@+id/safety"
+        android:title="Safety"
+        android:icon="@drawable/ic_baseline_safety_check_24" />
+
+
+    <item
+        android:title=""/>
+
+
+</menu>
